@@ -10,6 +10,7 @@
 [![HTTPX Async](https://img.shields.io/badge/HTTPX-Async%20Engine-2D3748?style=for-the-badge&logo=fastapi&logoColor=009688)](https://www.python-httpx.org/)
 [![VO2 Max](https://img.shields.io/badge/VO₂%20Max-41.0%20mL%2Fkg%2Fmin-10B981?style=for-the-badge)](https://connect.garmin.com/)
 [![RHR](https://img.shields.io/badge/FC%20Reposo-53%20bpm-EF4444?style=for-the-badge)](https://connect.garmin.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge)](./LICENSE)
 
 *Transformando datos biométricos crudos en inteligencia accionable: este servidor MCP conecta agentes de IA directamente con la API oficial **Garmin Connect Personal** (`personal.connectapi.garmin.com`) sin scraping, sin exponer contraseñas y con latencia mínima.*
 
@@ -139,7 +140,7 @@ El servidor expone **8 herramientas especializadas** diseñadas para optimizar e
 
 ```powershell
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/garmin-mcp.git
+git clone https://github.com/guillealonso/garmin-mcp.git
 cd garmin-mcp
 
 # 2. Crear y activar el entorno virtual
@@ -194,6 +195,12 @@ Una vez conectado el MCP a tu agente de IA, puedes realizar análisis fisiológi
 
 ---
 
+## 📄 Licencia
+
+Distribuido bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+
+---
+
 <div align="center">
-  <sub>Desarrollado con 🏊‍♂️ disciplina deportiva, Python asíncrono y el estándar <b>Model Context Protocol (MCP)</b>.</sub>
+  <sub>Desarrollado por <a href="https://github.com/guillealonso">@guillealonso</a> con 🏊‍♂️ disciplina deportiva, Python asíncrono y el estándar <b>Model Context Protocol (MCP)</b>.</sub>
 </div>
